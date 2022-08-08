@@ -1,0 +1,73 @@
+html,
+body {
+
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Rubik', sans-serif;
+
+
+}
+
+
+.video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    object-fit: cover;
+    object-position: center;
+}
+
+h2,
+h4,
+img {
+    z-index: 20;
+    position: relative;
+    color: white;
+
+
+}
+
+img {
+    width: 54px;
+    height: 48px;
+    padding-bottom: 20px;
+
+}
+
+
+
+h2 {
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.247);
+    letter-spacing: 2px;
+    margin: 1px;
+}
+
+.main {
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+@media screen and (max-width: 510px) {
+
+    img {
+        width: 44px;
+        height: 38px;
+    }
+
+    h2,
+    h4 {
+        font-size: 90%;
+    }
+}
